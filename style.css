@@ -1,12 +1,41 @@
-div {
-    background-color: lightcoral; 
+* {
+    font-family: sans-serif;
+}
+#page {
+    background-color: lightgrey; 
+}
+h1 {
+    outline: black solid thick;
     text-align: center;
 }
-h1, h3 {
+nav {
+    outline: black solid thick;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+.block {
+    float: left; 
+    /*display: inline-block; */
+    width: 40%; 
+}
+#work {
+    clear: left;
+}
+#app {
+    background-color: lightcoral; 
+    text-align: center;
+    width: 400px; 
+    border-radius: 5%;
+}
+#app h1, h3 {
     color: white; 
 }
 
-p {
+#app p {
     color:lightgreen;
     font-size: 100px; 
 }
