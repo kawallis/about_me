@@ -20,7 +20,7 @@ nav li {
 .block {
     float: left; 
     /*display: inline-block; */
-    width: 40%; 
+    width: 50%; 
 }
 #work {
     clear: left;
