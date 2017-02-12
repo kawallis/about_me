@@ -2,15 +2,21 @@
     font-family: sans-serif;
 }
 #page {
-    background-color: lightgrey; 
+    background-color: white; 
+}
+
+img {
+    height: 600px;
+    border-radius: 5%;
+    width: 100%;
 }
 h1 {
-    outline: black solid thick;
+    
     text-align: center;
 }
 nav {
-    outline: black solid thick;
-    text-align: center;
+    
+    text-align: center; 
 }
 nav li {
     display: inline;
@@ -20,10 +26,13 @@ nav li {
 .block {
     float: left; 
     /*display: inline-block; */
-    width: 50%; 
+    width: 300px;
+    height: 400px;
+    margin: 10px 20px 10px 70px;
 }
 #work {
     clear: left;
+    margin: 0px 70px 100px 70px;
 }
 #app {
     background-color: lightcoral; 
